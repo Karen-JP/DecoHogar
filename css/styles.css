@@ -1,0 +1,306 @@
+body {
+    background-color: #f3ecc2 !important;
+    margin: 0;
+}
+
+/*<----------------NavMenu------------->*/
+.nav-container .nav-list {
+    background: black;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.9;
+}
+
+.nav-container ul {
+    background: rgba(128, 115, 115, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav-list a {
+    font-family: merienda one;
+    font-size: 15px;
+    color: #f5f1da;
+    padding: 10px;
+}
+
+.nav-list a:hover {
+    text-decoration: none;
+    color: #838383;
+}
+
+.nav-list>li {
+    padding-right: 10px;
+}
+
+.nav-list>li:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+/*<----------------Icon-menu responsive------------->*/
+#btn-menu {
+    display: none;
+}
+
+.icon-menu {
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.icon-menu {
+    display: none;
+}
+
+/*<----------------Carousel------------->*/
+.carousel-inner {
+    margin-bottom: 50px;
+    border-style: solid;
+}
+
+.carousel-caption {
+    color: black !important;
+    font-family: merienda one;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    font-style: italic;
+}
+
+.carousel-item>img {
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+/*<----------------DecoHogar Texto------------->*/
+
+.caja-deco {
+    background: #d3c09a;
+    border: 2px inherit;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 20px;
+}
+
+#decohogar {
+    font-family: merienda one;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.texto-deco {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0;
+}
+
+/*<----------------Imagenes------------->*/
+.imagen {
+    width: 100%;
+    border-radius: 15px;
+    border: solid;
+    object-fit: cover;
+
+}
+
+.imagen:hover {
+    border-radius: 50%;
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+/*<----------------Texto de Imagenes------------->*/
+
+#texto-titulo {
+    text-align: center;
+    font-family: merienda one;
+    text-shadow: -2px -2px 1px #000;
+    border: 2px solid black;
+    background-image: url(https://3.bp.blogspot.com/-5k2cMjygZEA/VC9GVbsMz8I/AAAAAAAAVyg/aZtUPfV1BtE/s1600/tileable_wood_texture_by_ftIsis_Sto.jpg);
+    border-radius: 15px;
+    font-size: 32px;
+}
+
+
+
+.texto>ul {
+    font-family: dancing script;
+    font-size: 20px;
+    background-color: #1dd3bd;
+    border-radius: 20px;
+    opacity: 0.8;
+    box-shadow: 0px 0px 5px #222831;
+    list-style: none;
+    padding: 0;
+    display: block;
+}
+
+ul>#servicio {
+    list-style: none;
+}
+
+#servicio {
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+}
+
+/*<------------Iconos------------>*/
+.icons {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0 !important;
+}
+
+#icon-link {
+    line-height: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+#icon-link:hover {
+    color: darkgray;
+}
+
+.icons>li {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+/*<----------------Footer------------->*/
+.firma {
+    text-align: center;
+    font-family: pacifico;
+    color: #f0ece3;
+    margin-top: 112px;
+    padding: 0;
+
+}
+
+.footer {
+    margin: 0 auto;
+    background-color: black;
+    height: 200px;
+    opacity: 0.8;
+    margin-top: 95px;
+}
+
+/*<----------------Formulario------------->*/
+
+#info {
+    font-family: merienda one;
+    background: #d3c09a;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid;
+    font-size: 20px;
+    opacity: 0.9;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.form-titulo {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    margin: 10px 10px;
+    font-size: 15px;
+}
+
+
+input {
+    width: 100% !important;
+    border: 0px !important;
+    font-size: 15px !important;
+
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 15px !important;
+    padding: 10px !important;
+    display: block !important;
+    margin: 0 auto !important;
+    resize: none !important;
+}
+
+
+
+/*<----------------@Media > menu responsive------------->*/
+@media (max-width: 768px) {
+    .icon-menu {
+        display: block;
+        align-items: center;
+    }
+
+    .nav-container ul {
+        display: block;
+        flex-direction: column;
+        text-align: left;
+        width: 50%;
+        background-color: #555;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+        border-radius: 20px;
+        position: absolute;
+    }
+
+    .nav-list ul li:hover a {
+        display: none;
+    }
+
+    #btn-menu:checked~.nav-container ul {
+        transform: translateX(0%);
+        position: static;
+    }
+
+    .imagen {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    button {
+        margin-bottom: 5px !important;
+    }
+
+    ::-moz-placeholder {
+        color: transparent;
+    }
+
+    .texto>a {
+        display: none;
+    }
+
+}
